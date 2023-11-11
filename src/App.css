@@ -1,38 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;700&display=swap');
+
+*{
+  padding: 5px;
+  margin: 10px;
+  background-color: #282c34;
+  font-family: 'Advent Pro', sans-serif;
+}
+
 .App {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-todo {
+  border-radius: 30px;
+  color: aqua;
+  font-size: 20px;
+  opacity: 0.5;
+  font-family: 'Advent Pro', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.grenchekbox {
+  color: green;
+  font-size: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+
+.background-todos {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  /* display: flex; */
+  background-color: #525866;
+  width: 500px;
+  border-radius: 30px;
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+
+.todo {
+  display: flex;
+  border-radius: 30px;
+  justify-content: space-around;
+  border-radius: 30px;    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todo-task {
+  font-weight: 500px;
+}
+
+.form-todo {
+  border-radius: 30px;
+}
+
+.todo-item {
+  border-radius: 30px;
+}
+
+.form-todo button {
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.form-todo button:hover {
+  border-radius: 30px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.background-todos input{
+   font-weight: bold;
+  width: 300px;
+  border-radius: 30px;
+  border-style: none;
+
+}
+
+.delete {
+font-size: 25px;
+}
+
+.delete:hover {
+  transition: all 1s;
+transform: scale(1.4);
+color: rgba(196, 101, 101, 0.549);
+}
+
+.checkbox {
+font-size: 25px;
+}
+
+.checkbox:hover {
+  transition: all 1s;
+transform: scale(1.4);
+color: rgba(9, 106, 75, 0.892);
 }

@@ -74,6 +74,7 @@
 .background-todos input{
    font-weight: bold;
   width: 300px;
+  color: rgb(208, 209, 208);
   border-radius: 30px;
   border-style: none;
 
